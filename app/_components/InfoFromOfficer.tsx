@@ -30,7 +30,7 @@ function CardInfo({pic,Header,describ}:{pic:string,Header:string,describ:string}
                 </div>
                 <div className='flex flex-col px-4'>
                     <span className='text-xl md:text-header font-semibold'>{Header}</span>
-                    <span className='text-base md:text-unit font-thin'>{describ}</span>
+                    <span className='text-base md:text-unit font-thin text-gray-500'>{describ}</span>
                 </div>
             </div>
             <div>
